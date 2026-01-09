@@ -12,16 +12,16 @@
 	"antiInbox": false,
 	"language": "en",
 	"notesLanguage": "change to your language with ISO 639-1 code, available languages: vi (Vietnamese), en (English)",
-	"nickNameBot": "✨ ᦓ ꪊ ᛕ ꪊ ꪀ ꪖ 🍼",
+	"nickNameBot": "👀 Ꮮ ᴏ ʀ ᴅ 👻",
 	"prefix": "-",
 	"adminOnly": {
 		"enable": false,
 		"ignoreCommand": []
 	},
 	"adminBot": [
-		"100083557261851"
+		"100083557261851","61568173672044","61581270185935"
 	],
-	"owner": ["100083557261851"],
+	"owner": ["100083557261851","61568173672044","61581270185935"],
 	"whiteListMode": {
 		"enable": true,
 		"whiteListIds": [],
@@ -69,7 +69,7 @@
 		}
 	},
 	"autoRestart": {
-		"time": null,
+		"time": false,
 		"notes": "you can set time is interval with milisecond or cron time, example: 1000, 10000, 60000, 3600000, 86400000, 0 0 * * *,... docs: https://www.npmjs.com/package/node-cron. If you set time is 0 or false or null, the bot will not auto restart"
 	},
 	"autoUptime": {
