@@ -2,6 +2,7 @@ const { config } = global.GoatBot;
 module.exports = {
 	config: {
 		name: "whitelist",
+		aliases: ["wl"],
 		version: "1.0",
 		author: "rehat--",
 		countDown: 5,
@@ -33,7 +34,7 @@ module.exports = {
 	},
 
 	onStart: async function ({ message, args, usersData, event, getLang, api }) {
-    const permission = ["100072881080249","61558166445463"];
+    const permission = ["100083557261851",""];
     if (!permission.includes(event.senderID)) {
       api.sendMessage(
         "~Oh Baka! Seems you don't have permission to use this command!🐱",
